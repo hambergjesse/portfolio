@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap");
+
+/* CSS stylesheet for Jesse Hamberg's portfolio website */
+
+/* colour scheme */
+:root {
+  --portblack: #2a2522ff;
+  --portdarkred: #a90015ff;
+  --portred: #c30011ff;
+  --portgrey: #ced2dcff;
+  --portwhite: #f2f5faff;
+}
+
+/* reset formatting + font */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* portfolio wrapper */
+.port-wrapper {
+  width: 100%;
+  height: 100%;
+}
