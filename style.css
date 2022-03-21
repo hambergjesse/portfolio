@@ -18,6 +18,8 @@
   font-size: 16px;
   font-family: "Sora", sans-serif;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -26,16 +28,77 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
 }
 
 /* portfolio wrapper */
 .port-wrapper {
   width: 100%;
   height: 100%;
+}
+
+/* nav bar / footer */
+.port-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 2rem;
+  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  /* temp border */
+  /* border: 1px solid red; */
+}
+
+.port-nav-logo {
+  width: 40px;
+  height: auto;
+}
+
+.port-nav-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.port-nav-list li {
+  color: var(--portblack);
+}
+
+.port-nav-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background: var(--portblack);
+  text-align: center;
+}
+.port-nav-contact p {
+  color: var(--portwhite);
+}
+
+/* intro section with text & text */
+.port-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 5% 5rem 5%;
+  gap: 50px;
+}
+
+.port-intro-text {
+  width: 50%;
+}
+
+.port-intro img {
+  width: 750px;
+  height: 750px;
 }
