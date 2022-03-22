@@ -209,7 +209,7 @@ p {
 /* cool <h1> closers for title */
 .port-intro-text-h1 {
   font-size: 36px;
-  color: var(--portred);
+  color: var(--portdarkred);
   transition: 0.4s ease-in-out;
 }
 
@@ -252,7 +252,14 @@ p {
   height: 350px;
   margin-bottom: 10px;
   object-fit: cover;
-  filter: saturate(0%);
+  filter: grayscale(100%);
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.port-design img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.025);
 }
 
 .port-design-1,
