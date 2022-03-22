@@ -45,8 +45,18 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 18px;
   font-weight: 600;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 p {
@@ -154,6 +164,7 @@ p {
 .port-nav-contact:hover {
   transform: scale(1.05);
   filter: contrast(50%);
+  /* box-shadow: 0px 0px 5px var(--portgrey); */
 }
 
 .port-nav-contact p {
@@ -195,6 +206,12 @@ p {
   margin-left: 20px;
 }
 
+/* cool <h1> closers for title */
+.port-intro-text-h1 {
+  font-size: 36px;
+  color: var(--portgrey);
+}
+
 .port-intro-image img {
   width: 750px;
   height: 750px;
@@ -223,6 +240,10 @@ p {
   display: flex;
   justify-content: center;
   gap: 85px;
+}
+
+.port-design img {
+  margin-bottom: 10px;
 }
 
 .port-design-1,
