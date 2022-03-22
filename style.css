@@ -265,9 +265,9 @@ p {
 .port-design-1,
 .port-design-2,
 .port-design-3 {
+  display: flex;
   width: 350px;
   height: auto;
-  display: flex;
   flex-direction: column;
 }
 
