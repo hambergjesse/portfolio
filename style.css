@@ -138,14 +138,13 @@ p {
   transition: transform 0.25s ease-out;
 }
 
-/* other */
 .port-nav-list-item:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
 .port-nav-list-smalltext {
-  color: var(--portgrey);
+  color: var(--portred);
   font-size: 14px;
 }
 
@@ -156,7 +155,7 @@ p {
   width: 100px;
   height: 35px;
   border-radius: 5px;
-  background: var(--portblack);
+  background: var(--portred);
   text-align: center;
   transition: 0.15s ease-in-out;
 }
@@ -204,12 +203,18 @@ p {
 .port-intro-text h1:hover {
   transform: scale(1.05);
   margin-left: 20px;
+  color: var(--portred);
 }
 
 /* cool <h1> closers for title */
 .port-intro-text-h1 {
   font-size: 36px;
-  color: var(--portgrey);
+  color: var(--portred);
+  transition: 0.4s ease-in-out;
+}
+
+.port-intro-text-h1:hover {
+  color: var(--portblack);
 }
 
 .port-intro-image img {
@@ -243,15 +248,20 @@ p {
 }
 
 .port-design img {
+  width: 350px;
+  height: 350px;
   margin-bottom: 10px;
+  object-fit: cover;
+  filter: saturate(0%);
 }
 
 .port-design-1,
 .port-design-2,
 .port-design-3 {
+  width: 350px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  width: 350px;
 }
 
 /* coding knowledge */
