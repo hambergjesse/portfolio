@@ -374,6 +374,8 @@ p {
 
 .port-testimonials-wrapper img {
   border-radius: 5px;
+  width: 350px;
+  height: auto;
   transition: 0.25s ease-in-out;
 }
 
