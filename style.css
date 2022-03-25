@@ -514,6 +514,49 @@ p {
   }
 }
 
+/* Laptops 1 */
+@media only screen and (max-width: 1536px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 48px;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: flex;
+    gap: 95px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: flex;
+    gap: 42.5px;
+  }
+
+  .port-testimonials img {
+    width: 400px;
+    height: auto;
+  }
+
+  .port-testimonials-text h3 {
+    font-size: 16px;
+  }
+
+  .port-testimonials-text p {
+    font-size: 15px;
+  }
+
+  .port-testimonials-text h4 {
+    font-size: 14px;
+  }
+}
+
 /* Laptops 2 */
 @media only screen and (max-width: 1366px) {
   /* first section */
