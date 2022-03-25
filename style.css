@@ -198,6 +198,7 @@ p {
 
 .port-intro-text h1 {
   font-size: 64px;
+  margin-bottom: 10px;
   transition: 0.4s ease-in-out;
 }
 
@@ -323,6 +324,10 @@ p {
   gap: 170px;
 }
 
+.port-education-wrapper-2 {
+  display: none;
+}
+
 .port-education-1,
 .port-education-2,
 .port-education-3 {
@@ -374,6 +379,10 @@ p {
   gap: 85px;
 }
 
+.port-testimonials-wrapper-2 {
+  display: none;
+}
+
 .port-testimonials-wrapper img {
   border-radius: 5px;
   width: 400px;
@@ -395,7 +404,7 @@ p {
   align-items: center;
   width: 500px;
   height: auto;
-  gap: 20px;
+  gap: 16px;
 }
 
 .port-testimonials-text {
@@ -452,7 +461,7 @@ p {
 
 .port-footer-logo {
   display: flex;
-  width: 25px;
+  width: 36px;
   height: auto;
 }
 
@@ -489,11 +498,28 @@ p {
   color: var(--portwhite);
 } */
 
+/* 2160p 4K */
+@media only screen and (max-width: 3840px) {
+}
+
+/* 1440p 2K */
+@media only screen and (max-width: 2560px) {
+}
+
 /* Laptops 1 */
 @media only screen and (max-width: 1600px) {
   /* first section */
   .port-intro-text h1 {
     font-size: 52px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 32px;
+  }
+
+  .port-intro-image img {
+    height: 650px;
+    width: auto;
   }
 
   /* 02. What I Speak */
@@ -502,14 +528,20 @@ p {
     height: auto;
   }
 
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: flex;
+    gap: 82.5px;
+  }
+
   /* 04. What they Think */
   .port-testimonials-wrapper {
     display: flex;
-    gap: 35px;
+    gap: 28px;
   }
 
   .port-testimonials img {
-    width: 500px;
+    width: 600px;
     height: auto;
   }
 }
@@ -519,6 +551,15 @@ p {
   /* first section */
   .port-intro-text h1 {
     font-size: 48px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 28px;
+  }
+
+  .port-intro-image img {
+    height: 625px;
+    width: auto;
   }
 
   /* 02. What I Speak */
@@ -561,16 +602,36 @@ p {
 @media only screen and (max-width: 1366px) {
   /* first section */
   .port-intro-text h1 {
-    font-size: 36px;
+    font-size: 43px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 23px;
   }
 
   .port-intro-text p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .port-intro-image img {
-    width: 650px;
-    height: 650px;
+    height: 600px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    display: flex;
+    gap: 110px;
+  }
+
+  .port-design-1,
+  .port-design-2,
+  .port-design-3 {
+    width: 300px;
+  }
+
+  .port-design img {
+    height: 300px;
   }
 
   /* 02. What I Speak */
@@ -607,13 +668,176 @@ p {
   .port-testimonials-text h4 {
     font-size: 14px;
   }
+
+  /* closing */
+  .port-closing-text p {
+    font-size: 16px;
+  }
 }
 
-/* Responsive for Tablets */
-@media only screen and (max-width: 810px) {
-  .port-intro {
+@media only screen and (max-width: 1280px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 38px;
   }
 
-  .port-nav-list {
+  .port-intro-text-h1 {
+    font-size: 18px;
   }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-image img {
+    height: 550px;
+    width: auto;
+  }
+
+  /* 01 What I Do */
+  .port-design-1,
+  .port-design-2,
+  .port-design-3 {
+    width: 275px;
+  }
+
+  .port-design img {
+    height: 275px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: flex;
+    gap: 50px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: flex;
+    gap: 16px;
+  }
+
+  .port-testimonials img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 38px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 18px;
+  }
+
+  .port-intro-image img {
+    height: 425px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 42.5px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: none;
+  }
+
+  .port-education-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .port-education-line-1 {
+    display: flex;
+    gap: 35px;
+  }
+
+  .port-education h3 {
+    font-size: 16px;
+  }
+
+  .port-education h4 {
+    font-size: 14px;
+  }
+
+  .port-education p {
+    font-size: 13px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: none;
+  }
+
+  .port-testimonials-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 3.5%;
+    margin: 0rem 5% 0rem 5%;
+    box-shadow: 0px 5px 50px rgb(245, 245, 245);
+    gap: 42.5px;
+  }
+
+  .port-testimonials-line-1 {
+    display: flex;
+    gap: 120px;
+  }
+
+  .port-testimonials-wrapper-2 img {
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    transition: 0.25s ease-in-out;
+  }
+
+  .port-testimonials-wrapper-2 img:hover {
+    border-radius: 10px;
+    /* transform: scale(1.05); */
+    box-shadow: 0px 5px 50px rgb(228, 228, 228);
+  }
+
+  .port-testimonials-1,
+  .port-testimonials-2,
+  .port-testimonials-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    gap: 16px;
+  }
+
+  /* closing */
+  .port-closing {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+}
+
+@media only screen and (max-width: 720px) {
+}
+
+@media only screen and (max-width: 540px) {
+}
+
+@media only screen and (max-width: 412px) {
+}
+
+@media only screen and (max-width: 360px) {
 }
