@@ -177,7 +177,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3.5% 2.5% 3.5% 2.5%;
+  padding: 3.5%;
   margin: 0rem 5% 0rem 5%;
   gap: 0px;
   border-radius: 5px;
@@ -269,9 +269,9 @@ p {
 .port-design-2,
 .port-design-3 {
   display: flex;
+  flex-direction: column;
   width: 350px;
   height: auto;
-  flex-direction: column;
 }
 
 /* coding knowledge */
@@ -295,7 +295,7 @@ p {
 
 .port-code-language img {
   width: 250px;
-  height: 250px;
+  height: auto;
   object-fit: cover;
   filter: grayscale(100%);
   border-radius: 5px;
@@ -366,8 +366,9 @@ p {
 .port-testimonials-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: left;
-  padding: 3.5% 2.5% 3.5% 2.5%;
+  padding: 3.5%;
   margin: 0rem 5% 0rem 5%;
   box-shadow: 0px 5px 50px rgb(245, 245, 245);
   gap: 85px;
@@ -375,7 +376,7 @@ p {
 
 .port-testimonials-wrapper img {
   border-radius: 5px;
-  width: 350px;
+  width: 400px;
   height: auto;
   transition: 0.25s ease-in-out;
 }
@@ -393,12 +394,14 @@ p {
   justify-content: center;
   align-items: center;
   width: 500px;
+  height: auto;
   gap: 20px;
 }
 
 .port-testimonials-text {
   display: flex;
   flex-direction: column;
+  height: auto;
   gap: 5px;
 }
 
@@ -465,7 +468,7 @@ p {
   transform: scale(1.1);
 }
 
-.port-footer-list {
+/* .port-footer-list {
   display: flex;
   gap: 3rem;
 }
@@ -484,4 +487,90 @@ p {
 .port-footer-contact p {
   font-family: "Sora", sans-serif;
   color: var(--portwhite);
+} */
+
+/* Laptops 1 */
+@media only screen and (max-width: 1600px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 52px;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: flex;
+    gap: 35px;
+  }
+
+  .port-testimonials img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+/* Laptops 2 */
+@media only screen and (max-width: 1366px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 36px;
+  }
+
+  .port-intro-text p {
+    font-size: 14px;
+  }
+
+  .port-intro-image img {
+    width: 650px;
+    height: 650px;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: flex;
+    gap: 60px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: flex;
+    gap: 24px;
+  }
+
+  .port-testimonials img {
+    width: 400px;
+    height: auto;
+  }
+
+  .port-testimonials-text h3 {
+    font-size: 14px;
+  }
+
+  .port-testimonials-text p {
+    font-size: 13px;
+  }
+
+  .port-testimonials-text h4 {
+    font-size: 14px;
+  }
+}
+
+/* Responsive for Tablets */
+@media only screen and (max-width: 810px) {
+  .port-intro {
+  }
+
+  .port-nav-list {
+  }
 }
