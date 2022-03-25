@@ -825,9 +825,92 @@ p {
   .port-closing {
     width: 800px;
   }
+
+  .port-closing h3 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 810px) {
+  /* nav bar */
+  .port-nav-list {
+    gap: 15px;
+  }
+
+  .port-nav-list-item {
+    font-size: 15px;
+  }
+
+  .port-nav-list span {
+    font-size: 13px;
+  }
+
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 24px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 12x;
+  }
+
+  .port-intro-image img {
+    height: 375px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 50px;
+  }
+
+  .port-design-wrapper p {
+    font-size: 16px;
+  }
+
+  .port-design-1,
+  .port-design-2,
+  .port-design-3 {
+    width: 200px;
+  }
+
+  .port-design img {
+    height: 200px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 600px;
+  }
+
+  /* 04. What They Think */
+
+  .port-testimonials-wrapper-2 {
+    padding-left: 50px;
+    gap: 30px;
+  }
+
+  .port-testimonials-line-1 {
+    gap: 0px;
+  }
+
+  .port-testimonials-wrapper-2 img {
+    width: 300px;
+    height: auto;
+  }
+
+  /* closing */
+  .port-closing {
+    width: 625px;
+  }
+
+  .port-closing h3 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -836,7 +919,8 @@ p {
 @media only screen and (max-width: 540px) {
 }
 
-@media only screen and (max-width: 412px) {
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 480px) {
 }
 
 @media only screen and (max-width: 360px) {
