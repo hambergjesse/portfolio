@@ -89,6 +89,10 @@ p {
   /* border: 1px solid red; */
 }
 
+.port-nav-wrapper-2 {
+  display: none;
+}
+
 .port-nav-logo {
   width: 40px;
   height: auto;
@@ -203,8 +207,8 @@ p {
 }
 
 .port-intro-text h1:hover {
-  transform: scale(1.05);
-  margin-left: 20px;
+  transform: scale(1.03);
+  /* margin-left: 20px; */
   color: var(--portred);
 }
 
@@ -831,10 +835,32 @@ p {
   }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1000px) and (min-width: 811px) {
   /* nav bar */
   .port-nav-list {
-    gap: 15px;
+    gap: 17px;
+  }
+
+  /* first sect */
+  .port-intro-text h1 {
+    font-size: 28px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 20px;
+  }
+
+  .port-design img {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  /* nav and shit */
+  .port-nav-list {
+    gap: 20px;
   }
 
   .port-nav-list-item {
@@ -919,6 +945,88 @@ p {
 }
 
 @media only screen and (max-width: 720px) {
+  /* global */
+  h2 {
+    font-size: 38px;
+  }
+
+  .port-nav-list {
+    display: none;
+  }
+
+  /* header/nav */
+  .port-nav-wrapper-2 {
+    display: flex;
+    gap: 50px;
+  }
+
+  .port-nav-list-2-1,
+  .port-nav-list-2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* first section */
+  .port-intro {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .port-intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .port-intro-text {
+    width: 90%;
+    /* padding: 0px 10px 5px 10px;
+    border-radius: 5px; */
+  }
+
+  .port-intro-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 38px;
+  }
+
+  .port-intro-text p {
+    font-size: 16px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 18px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 23px;
+  }
+
+  .port-design img {
+    height: 175px;
+    width: 175px;
+    margin-bottom: 5px;
+  }
+
+  .port-design p {
+    font-size: 13px;
+  }
+
+  .port-design h3 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
