@@ -1084,6 +1084,50 @@ p {
     gap: 25px;
     transition: 0.225s ease-in-out;
   }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper-2 {
+    display: none;
+  }
+
+  .port-testimonials-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 42.5px;
+  }
+
+  .port-testimonials img {
+    width: 100px;
+    height: auto;
+  }
+
+  .port-testimonials p {
+    font-size: 16px;
+  }
+
+  .port-testimonials-1,
+  .port-testimonials-2,
+  .port-testimonials-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+  }
+
+  /* closing text */
+  .port-closing {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .port-closing-text p {
+    font-size: 15px;
+  }
+
+  .port-closing-text {
+    width: 550px;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 540px) {
