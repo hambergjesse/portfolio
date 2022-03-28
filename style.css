@@ -882,6 +882,11 @@ p {
     height: 200px;
   }
 
+  /* 02. What I speak */
+  .port-code-language {
+    gap: 30px;
+  }
+
   /* divider */
   .port-divider {
     width: 600px;
