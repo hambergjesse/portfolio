@@ -1131,6 +1131,78 @@ p {
 }
 
 @media only screen and (max-width: 540px) {
+  /* header/nav */
+  .port-nav-wrapper-2 {
+    gap: 20px;
+  }
+
+  .port-nav-wrapper-2 li {
+    font-size: 14px;
+  }
+
+  .port-nav-wrapper-2 span {
+    font-size: 12px;
+  }
+
+  /* first section */
+  .port-intro-image img {
+    width: 375px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 34px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .port-design-wrapper img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .port-design-wrapper p {
+    font-size: 16px;
+  }
+
+  .port-design-1,
+  .port-design-2,
+  .port-design-3 {
+    width: 400px;
+  }
+
+  /* 02. What I Speak */
+  .port-code {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .port-code-language {
+    flex-direction: column;
+  }
+
+  .port-code-language img {
+    width: 200px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 400px;
+  }
+
+  /* closing */
+  .port-closing-text p {
+    font-size: 16px;
+  }
+
+  .port-closing-text {
+    width: 450px;
+  }
 }
 
 /* Media Query for Mobile Devices */
