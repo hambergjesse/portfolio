@@ -74,6 +74,19 @@ p {
   height: 100%;
 }
 
+/* portfolio background image */
+.port-background {
+  position: relative;
+}
+
+.port-bg {
+  opacity: 0.03;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 /* nav bar / header */
 .port-header {
   display: flex;
@@ -84,7 +97,8 @@ p {
   width: 100%;
   height: 10%;
   padding: 2rem;
-  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  background: white;
+  box-shadow: 0px 5px 50px rgb(233, 233, 233);
   /* temp border */
   /* border: 1px solid red; */
 }
@@ -115,22 +129,28 @@ p {
   gap: 3rem;
 }
 
-.port-nav-list li {
+.port-nav-list li,
+.port-nav-list-2-1 li,
+.port-nav-list-2-2 li {
   transition: 0.15s ease-in-out;
 }
 
-.port-nav-list li:hover {
+.port-nav-list li:hover,
+.port-nav-list-2-1 li:hover,
+.port-nav-list-2-2 li:hover {
   transform: scale(1.1);
   filter: contrast(10%);
 }
 
 /* underline animation */
-.port-nav-list-item {
+.port-nav-list-item,
+.port-nav-list-item-2 {
   display: inline-block;
   position: relative;
 }
 
-.port-nav-list-item:after {
+.port-nav-list-item:after,
+.port-nav-list-item-2:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -143,7 +163,8 @@ p {
   transition: transform 0.25s ease-out;
 }
 
-.port-nav-list-item:hover:after {
+.port-nav-list-item:hover:after,
+.port-nav-list-item-2:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -185,7 +206,8 @@ p {
   margin: 0rem 5% 0rem 5%;
   gap: 0px;
   border-radius: 5px;
-  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  background: white;
+  box-shadow: 0px 5px 50px rgb(233, 233, 233);
 }
 
 .port-intro-text {
@@ -288,7 +310,8 @@ p {
   border-radius: 5px;
   padding: 3.5% 2.5% 3.5% 2.5%;
   margin: 0rem 5% 0rem 5%;
-  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  background: white;
+  box-shadow: 0px 5px 50px rgb(233, 233, 233);
 }
 
 .port-code-language {
@@ -340,7 +363,8 @@ p {
   height: auto;
   flex-direction: row;
   align-items: center;
-  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  background: white;
+  box-shadow: 0px 5px 50px rgb(233, 233, 233);
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   gap: 25px;
@@ -379,7 +403,8 @@ p {
   text-align: left;
   padding: 3.5%;
   margin: 0rem 5% 0rem 5%;
-  box-shadow: 0px 5px 50px rgb(245, 245, 245);
+  background: white;
+  box-shadow: 0px 5px 50px rgb(233, 233, 233);
   gap: 85px;
 }
 
@@ -457,6 +482,7 @@ p {
   align-items: center;
   height: 10%;
   padding: 2rem;
+  background: white;
   box-shadow: 0px 0px 50px rgb(245, 245, 245);
   gap: 50px;
   /* temp border */
@@ -792,7 +818,8 @@ p {
     text-align: left;
     padding: 3.5%;
     margin: 0rem 5% 0rem 5%;
-    box-shadow: 0px 5px 50px rgb(245, 245, 245);
+    background: white;
+    box-shadow: 0px 5px 50px rgb(233, 233, 233);
     gap: 42.5px;
   }
 
@@ -944,7 +971,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 750px) {
   /* global */
   h2 {
     font-size: 38px;
@@ -992,13 +1019,13 @@ p {
   }
 
   .port-intro-image img {
-    width: 300px;
+    width: 450px;
     height: auto;
     border-radius: 5px;
   }
 
   .port-intro-text h1 {
-    font-size: 38px;
+    font-size: 44px;
   }
 
   .port-intro-text p {
@@ -1006,7 +1033,7 @@ p {
   }
 
   .port-intro-text-h1 {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   /* 01. What I Do */
@@ -1026,6 +1053,36 @@ p {
 
   .port-design h3 {
     font-size: 16px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper-2 {
+    display: none;
+  }
+
+  .port-education-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: left;
+    gap: 25px;
+  }
+
+  .port-education-1,
+  .port-education-2,
+  .port-education-3 {
+    display: flex;
+    width: 450px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    box-shadow: 0px 5px 50px rgb(233, 233, 233);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    gap: 25px;
+    transition: 0.225s ease-in-out;
   }
 }
 
