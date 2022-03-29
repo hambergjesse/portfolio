@@ -37,7 +37,6 @@ html,
 body {
   overflow-x: hidden;
   -ms-touch-action: none;
-  touch-action: none;
 }
 
 body {
