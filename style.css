@@ -579,8 +579,6 @@ p {
   background: white;
   -webkit-box-shadow: 0px 5px 50px rgb(233, 233, 233);
   box-shadow: 0px 5px 50px rgb(233, 233, 233);
-  -webkit-flex-gap: 85px;
-  -ms-flex-gap: 85px;
   gap: 85px;
 }
 
@@ -1363,7 +1361,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
-    gap: 25px;
+    gap: 50px;
   }
 
   .port-education-1,
@@ -1529,12 +1527,6 @@ p {
     width: 400px;
   }
 
-  /* 04. What they Think */
-  .port-testimonials-wrapper {
-    padding-top: 42.5px;
-    padding-bottom: 42.5px;
-  }
-
   /* closing */
   .port-closing-text p {
     font-size: 16px;
@@ -1659,6 +1651,11 @@ p {
   }
 
   /* 03. What I Study */
+
+  .port-education-wrapper {
+    gap: 45px;
+  }
+
   .port-education-1,
   .port-education-2,
   .port-education-3 {
