@@ -507,20 +507,13 @@ p {
   transform: scale(1.1);
 }
 
+.port-footer-contact {
+  display: none;
+}
+
 /* .port-footer-list {
   display: flex;
   gap: 3rem;
-}
-
-.port-footer-contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 35px;
-  border-radius: 5px;
-  background: var(--portred);
-  text-align: center;
 }
 
 .port-footer-contact p {
@@ -1195,6 +1188,12 @@ p {
     width: 400px;
   }
 
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    padding-top: 42.5px;
+    padding-bottom: 42.5px;
+  }
+
   /* closing */
   .port-closing-text p {
     font-size: 16px;
@@ -1207,7 +1206,162 @@ p {
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 480px) {
+  /* header/nav */
+  .port-nav-list-2-1,
+  .port-nav-list-2-2 {
+    display: none;
+  }
+
+  /* first section */
+  .port-intro-text {
+    width: 425px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 36px;
+  }
+
+  .port-intro-text span {
+    font-size: 16px;
+  }
+
+  /* 03. What I Study */
+  .port-education-1,
+  .port-education-2,
+  .port-education-3 {
+    width: 400px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials {
+    align-items: center;
+  }
+
+  .port-testimonials-wrapper {
+    width: 400px;
+  }
+
+  .port-testimonials p {
+    width: 350px;
+  }
+
+  /* closing */
+  .port-closing-text {
+    width: 375px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  /* nav/header */
+  .port-header {
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+  }
+
+  .port-nav-button {
+    display: none;
+  }
+
+  /* port-wrapper */
+  .port-wrapper {
+    gap: 50px;
+  }
+
+  /* first section */
+  .port-intro-text {
+    width: 300px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 28px;
+  }
+
+  .port-intro-text span {
+    font-size: 14px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .port-design-1,
+  .port-design-2,
+  .port-design-3 {
+    width: 325px;
+  }
+
+  /* 02. What I Speak */
+  h2 {
+    font-size: 28px;
+  }
+
+  .port-code-language img {
+    width: 175px;
+  }
+
+  /* footer */
+  .port-footer {
+    height: 75px;
+  }
+
+  /* 03. What I Study */
+  .port-education-1,
+  .port-education-2,
+  .port-education-3 {
+    width: 300px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 275px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    width: 325px;
+  }
+
+  .port-testimonials p {
+    width: 300px;
+  }
+
+  /* closing */
+  .port-closing-text {
+    width: 300px;
+  }
+
+  /* footer */
+  .port-footer-logo {
+    display: none;
+  }
+
+  .port-footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: var(--portred);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+  }
+
+  .port-footer-contact:hover {
+    transform: scale(1.05);
+    filter: contrast(50%);
+    /* box-shadow: 0px 0px 5px var(--portgrey); */
+  }
+
+  .port-footer-contact p {
+    font-family: "Sora", sans-serif;
+    color: var(--portwhite);
+  }
 }
