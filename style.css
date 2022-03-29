@@ -35,6 +35,8 @@
 
 html,
 body {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
 
