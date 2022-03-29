@@ -25,10 +25,16 @@
   scroll-behavior: smooth;
 }
 
+html,
 body {
+  overflow-x: hidden;
+  touch-action: none;
+}
+
+body {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
 }
 
 img {
