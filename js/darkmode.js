@@ -7,6 +7,13 @@ function myFunction() {
   } else {
     icon.src = "./images/icons/darkmode-moon.png";
   }
+
+  if (document.body.classList.contains("dark-mode")) {
+    let logo = document.getElementById("logo");
+    logo.src = "./images/icons/logo-white.png";
+  } else {
+    logo.src = "./images/icons/logo.png";
+  }
 }
 
 // function myFunction() {
