@@ -9,20 +9,21 @@
     <!-- add the amazing CSS -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./images/logo.png" />
-    
+
     <!-- stop horizontal scroll -->
     <script src="./js/scroll.js"></script>
+    <!-- prevent link spoof/polluting -->
+    <script src="./js/preventspoof.js"></script>
+    <!-- prevent content frame -->
+    <script src="./js/contentframing.js"></script>
 
     <!-- page name -->
     <title>Portfolio - Jesse Hamberg</title>
   </head>
   <body>
     <div class="port-background">
-      <img
-        class="port-bg"
-        src="./images/backgrounds/background.jpg"
-        alt=""
-      >
+      <img class="port-bg" src="./images/backgrounds/background.jpg" alt="" />
+    </div>
     <div class="port-wrapper">
       <header class="port-header" id="port-top">
         <!-- logo -->
@@ -83,7 +84,10 @@
           </div>
         </nav>
         <!-- contact button -->
-        <a href="https://solo.to/hambergjesse" class="port-nav-button" target="_blank"
+        <a
+          href="https://solo.to/hambergjesse"
+          class="port-nav-button"
+          target="_blank"
           ><div class="port-nav-contact">
             <p>contact</p>
           </div>
@@ -375,7 +379,10 @@
           <a href="#port-top"><img src="./images/logo.png" alt="" /></a>
         </div>
         <!-- contact button -->
-        <a href="https://solo.to/hambergjesse" class="port-footer-button" target="_blank"
+        <a
+          href="https://solo.to/hambergjesse"
+          class="port-footer-button"
+          target="_blank"
           ><div class="port-footer-contact">
             <p>contact</p>
           </div>
