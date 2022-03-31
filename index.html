@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./images/logo.png" />
 
-    <!-- stop horizontal scroll -->
-    <script src="./js/scroll.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- prevent link spoof/polluting -->
     <script src="./js/preventspoof.js"></script>
     <!-- prevent content frame -->
     <script src="./js/contentframing.js"></script>
+    <!-- cycle quotes in closing text -->
+    <script src="./js/cyclequotes.js"></script>
 
     <!-- page name -->
     <title>Portfolio - Jesse Hamberg</title>
@@ -347,20 +350,31 @@
       <!-- closing thoughts / thank you for viewing blaablaa -->
       <section class="port-closing">
         <div class="port-closing-text">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            voluptatum autem excepturi ducimus ex deserunt eos, itaque,
-            reprehenderit asperiores eum animi expedita in velit nihil esse
-            commodi culpa reiciendis doloremque. Minima perspiciatis nesciunt
-            veritatis consequatur iure ducimus modi, doloribus cumque! Fugit
-            vero voluptatum delectus dolorem? Cumque quas necessitatibus ducimus
-            voluptatibus aliquid dignissimos tempora amet sapiente in quo earum
-            reiciendis modi itaque consequatur, ratione fuga odit quasi repellat
-            deserunt doloribus recusandae cum repudiandae libero! Incidunt
-            similique nesciunt porro suscipit nihil eaque totam qui quos aut
-            quae ullam cumque nisi autem, architecto omnis eligendi eveniet.
-            Tempora odio dolore ipsa illum perferendis sequi.
-          </p>
+          <!-- quote 1 -->
+          <div class="port-closing-quote">
+            <p>
+              &ldquo;If you truly want to be respected by people you love, you
+              must prove to them that you can survive without them.&rdquo;
+            </p>
+            <cite> — Michael Bassey Johnson</cite>
+          </div>
+          <!-- quote 2 -->
+          <div class="port-closing-quote port-closing-quote-hide">
+            <p>
+              &ldquo;I’d rather be myself and be hated for it, then be what
+              everyone else loves and hate myself.&rdquo;
+            </p>
+            <cite> — Nathan Feuerstein</cite>
+          </div>
+          <!-- quote 3 -->
+          <div class="port-closing-quote port-closing-quote-hide">
+            <p>
+              &ldquo;Success is not measured by what you accomplish, but by the
+              opposition you have encountered, and the courage with which you
+              have maintained the struggle against overwhelming odds.&rdquo;
+            </p>
+            <cite> — Orison Swett Marden</cite>
+          </div>
           <a href="#port-top"><h3>Back to top</h3></a>
         </div>
       </section>

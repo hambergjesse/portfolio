@@ -7,6 +7,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 
 /* CSS stylesheet for Jesse Hamberg's portfolio website */
 
@@ -658,10 +659,23 @@ p {
   gap: 42.5px;
 }
 
+.port-closing-quote-hide {
+  display: none;
+}
+
+.port-closing cite {
+  font-family: "Lato", sans-serif;
+  text-decoration: italic;
+  font-size: 18px;
+  color: var(--portgrey);
+}
+
 .port-closing p {
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 24px;
+  padding-bottom: 15px;
+  color: var(--portblack);
 }
 
 .port-closing h3 {
