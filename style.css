@@ -727,7 +727,7 @@ p {
   transform: scale(1.1);
 }
 
-.port-footer-contact {
+.port-footer-button {
   display: none;
 }
 
@@ -1684,6 +1684,10 @@ p {
   /* footer */
   .port-footer-logo {
     display: none;
+  }
+
+  .port-footer-button {
+    display: flex;
   }
 
   .port-footer-contact {
