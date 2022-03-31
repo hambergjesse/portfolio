@@ -8,10 +8,18 @@
 
     <!-- add the amazing CSS -->
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./images/logo.png" />
+    <link rel="icon" href="./images/icons/logo.png" />
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- dark mode toggle -->
+    <script src="./js/darkmode.js"></script>
+    <!-- icons for dark mode -->
+    <script
+      src="https://kit.fontawesome.com/91e547386c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- prevent link spoof/polluting -->
     <script src="./js/preventspoof.js"></script>
@@ -31,7 +39,7 @@
       <header class="port-header" id="port-top">
         <!-- logo -->
         <div class="port-nav-logo">
-          <img src="./images/logo.png" class="cover" alt="" />
+          <img src="./images/icons/logo.png" class="cover" alt="" />
         </div>
         <nav>
           <!-- nav links -->
@@ -86,15 +94,21 @@
             </ul>
           </div>
         </nav>
+        <!-- dark mode toggle -->
+        <div class="port-mode-switch">
+          <button class="dark-mode-button" onclick="myFunction()">
+            <img id="icon" src="./images/icons/darkmode-moon.png" />
+          </button>
+        </div>
         <!-- contact button -->
-        <a
+        <!-- <a
           href="https://solo.to/hambergjesse"
           class="port-nav-button"
           target="_blank"
           ><div class="port-nav-contact">
             <p>contact</p>
           </div>
-        </a>
+        </a> -->
       </header>
 
       <!-- header w/ text and image side by side -->
@@ -361,10 +375,12 @@
           <!-- quote 2 -->
           <div class="port-closing-quote port-closing-quote-hide">
             <p>
-              &ldquo;I’d rather be myself and be hated for it, then be what
-              everyone else loves and hate myself.&rdquo;
+              &ldquo;In some ways, programming is like painting. You start with
+              a blank canvas and certain basic raw materials. You use a
+              combination of science, art, and craft to determine what to do
+              with them.&rdquo;
             </p>
-            <cite> — Nathan Feuerstein</cite>
+            <cite> — Andrew Hunt</cite>
           </div>
           <!-- quote 3 -->
           <div class="port-closing-quote port-closing-quote-hide">
@@ -390,7 +406,7 @@
         </nav> -->
         <!-- logo -->
         <div class="port-footer-logo">
-          <a href="#port-top"><img src="./images/logo.png" alt="" /></a>
+          <a href="#port-top"><img src="./images/icons/logo.png" alt="" /></a>
         </div>
         <!-- contact button -->
         <a

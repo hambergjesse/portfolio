@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
         .each(function () {
           var $self = $(this);
           $self.parent().queue(function (n) {
-            $self.fadeIn(1000).delay(12000).fadeOut(1000, n);
+            $self.fadeIn(1000).delay(7500).fadeOut(1000, n);
           });
         })
         .parent()
