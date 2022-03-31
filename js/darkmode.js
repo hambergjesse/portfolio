@@ -15,25 +15,3 @@ function myFunction() {
     logo.src = "./images/icons/logo.png";
   }
 }
-
-// function myFunction() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
-
-// var app = document.getElementsByTagName("BODY")[0];
-// if (localStorage.lightMode == "dark") {
-//   app.setAttribute("data-light-mode", "dark");
-// }
-
-// function toggle_light_mode() {
-//   var app = document.getElementsByTagName("BODY")[0];
-//   if (localStorage.lightMode == "dark") {
-//     localStorage.lightMode = "light";
-//     app.setAttribute("data-light-mode", "light");
-//   } else {
-//     localStorage.lightMode = "dark";
-//     app.setAttribute("data-light-mode", "dark");
-//   }
-//   console.log("lightMode = " + localStorage.lightMode);
-// }
