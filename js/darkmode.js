@@ -14,4 +14,11 @@ function myFunction() {
   } else {
     logo.src = "./images/icons/logo.png";
   }
+
+  if (document.body.classList.contains("dark-mode")) {
+    let img = document.getElementById("intro-img");
+    img.src = "./images/header-image.jpg";
+  } else {
+    img.src = "./images/header-image-2.jpg";
+  }
 }

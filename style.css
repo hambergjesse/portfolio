@@ -340,8 +340,6 @@ p {
 .port-intro-image img {
   width: 750px;
   height: 750px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   -webkit-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
@@ -354,8 +352,6 @@ p {
   -webkit-transform: scale(1.005);
   -ms-transform: scale(1.005);
   transform: scale(1.005);
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
 }
 
 /* design section */
