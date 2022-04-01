@@ -275,10 +275,6 @@ p {
 }
 
 /* dark mode switch */
-.port-mode-switch img {
-  height: 25px;
-}
-
 .dark-mode {
   --portblack: #ffffff;
   --portdarkred: #a90015ff;
@@ -287,6 +283,10 @@ p {
   --portwhite: #f2f5faff;
   --portbgwhite: #121212;
   --portboxshadow: #0c0c0c;
+}
+
+.port-mode-switch img {
+  height: 25px;
 }
 
 .dark-mode-button {
