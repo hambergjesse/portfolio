@@ -170,16 +170,14 @@ p {
 }
 
 .port-nav-list li,
-.port-nav-list-2-1 li,
-.port-nav-list-2-2 li {
+.port-nav-list-2 li {
   -webkit-transition: 0.15s ease-in-out;
   -o-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
 }
 
 .port-nav-list li:hover,
-.port-nav-list-2-1 li:hover,
-.port-nav-list-2-2 li:hover {
+.port-nav-list-2 li:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -346,12 +344,14 @@ p {
   /* no stretch image fill */
   -o-object-fit: cover;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .port-intro-image img:hover {
   -webkit-transform: scale(1.005);
   -ms-transform: scale(1.005);
   transform: scale(1.005);
+  filter: grayscale(0%);
 }
 
 /* design section */
@@ -406,9 +406,7 @@ p {
   box-shadow: 0px 5px 50px var(--portboxshadow);
 }
 
-.port-design-1,
-.port-design-2,
-.port-design-3 {
+.port-design-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,9 +505,7 @@ p {
   display: none;
 }
 
-.port-education-1,
-.port-education-2,
-.port-education-3 {
+.port-education-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,9 +529,7 @@ p {
   transition: 0.225s ease-in-out;
 }
 
-.port-education-1:hover,
-.port-education-2:hover,
-.port-education-3:hover {
+.port-education-item:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
@@ -613,9 +607,7 @@ p {
   box-shadow: 0px 5px 50px var(--portboxshadow);
 }
 
-.port-testimonials-1,
-.port-testimonials-2,
-.port-testimonials-3 {
+.port-testimonials-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -917,9 +909,7 @@ p {
     gap: 110px;
   }
 
-  .port-design-1,
-  .port-design-2,
-  .port-design-3 {
+  .port-design-item {
     width: 300px;
   }
 
@@ -992,9 +982,7 @@ p {
   }
 
   /* 01 What I Do */
-  .port-design-1,
-  .port-design-2,
-  .port-design-3 {
+  .port-design-item {
     width: 275px;
   }
 
@@ -1139,9 +1127,7 @@ p {
     box-shadow: 0px 5px 50px var(--portboxshadow);
   }
 
-  .port-testimonials-1,
-  .port-testimonials-2,
-  .port-testimonials-3 {
+  .port-testimonials-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1229,9 +1215,7 @@ p {
     font-size: 16px;
   }
 
-  .port-design-1,
-  .port-design-2,
-  .port-design-3 {
+  .port-design-item {
     width: 200px;
   }
 
@@ -1293,8 +1277,7 @@ p {
     gap: 50px;
   }
 
-  .port-nav-list-2-1,
-  .port-nav-list-2-2 {
+  .port-nav-list-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1404,9 +1387,7 @@ p {
     gap: 50px;
   }
 
-  .port-education-1,
-  .port-education-2,
-  .port-education-3 {
+  .port-education-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1458,9 +1439,7 @@ p {
     font-size: 16px;
   }
 
-  .port-testimonials-1,
-  .port-testimonials-2,
-  .port-testimonials-3 {
+  .port-testimonials-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1539,9 +1518,7 @@ p {
     font-size: 16px;
   }
 
-  .port-design-1,
-  .port-design-2,
-  .port-design-3 {
+  .port-design-item {
     width: 400px;
   }
 
@@ -1580,8 +1557,8 @@ p {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 500px) {
   /* header/nav */
-  .port-nav-list-2-1,
-  .port-nav-list-2-2 {
+  .port-nav-list,
+  .port-nav-list-2 {
     display: none;
   }
 
@@ -1599,9 +1576,7 @@ p {
   }
 
   /* 03. What I Study */
-  .port-education-1,
-  .port-education-2,
-  .port-education-3 {
+  .port-education-item {
     width: 400px;
   }
 
@@ -1631,7 +1606,7 @@ p {
   .port-header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1670,9 +1645,7 @@ p {
     height: 250px;
   }
 
-  .port-design-1,
-  .port-design-2,
-  .port-design-3 {
+  .port-design-item {
     width: 325px;
   }
 
@@ -1696,9 +1669,7 @@ p {
     gap: 45px;
   }
 
-  .port-education-1,
-  .port-education-2,
-  .port-education-3 {
+  .port-education-item {
     width: 300px;
   }
 
