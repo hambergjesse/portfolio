@@ -1,0 +1,970 @@
+/* 2160p 4K */
+@media only screen and (max-width: 3840px) {
+}
+
+/* 1440p 2K */
+@media only screen and (max-width: 2560px) {
+}
+
+/* Laptops 1 */
+@media only screen and (max-width: 1600px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 52px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 32px;
+  }
+
+  .port-intro-image img {
+    height: 650px;
+    width: auto;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 82.5px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 28px;
+  }
+
+  .port-testimonials img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+/* Laptops 1 */
+@media only screen and (max-width: 1536px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 48px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 28px;
+  }
+
+  .port-intro-image img {
+    height: 625px;
+    width: auto;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 95px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 42.5px;
+  }
+
+  .port-testimonials img {
+    width: 400px;
+    height: auto;
+  }
+
+  .port-testimonials-text h3 {
+    font-size: 16px;
+  }
+
+  .port-testimonials-text p {
+    font-size: 15px;
+  }
+
+  .port-testimonials-text h4 {
+    font-size: 14px;
+  }
+}
+
+/* Laptops 2 */
+@media only screen and (max-width: 1366px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 43px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 23px;
+  }
+
+  .port-intro-text p {
+    font-size: 16px;
+  }
+
+  .port-intro-image img {
+    height: 600px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 110px;
+  }
+
+  .port-design-item {
+    width: 300px;
+  }
+
+  .port-design img {
+    height: 300px;
+  }
+
+  /* 02. What I Speak */
+  .port-code-language img {
+    width: 350px;
+    height: auto;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 60px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 24px;
+  }
+
+  .port-testimonials img {
+    width: 400px;
+    height: auto;
+  }
+
+  .port-testimonials-text h3 {
+    font-size: 14px;
+  }
+
+  .port-testimonials-text p {
+    font-size: 13px;
+  }
+
+  .port-testimonials-text h4 {
+    font-size: 14px;
+  }
+
+  /* closing */
+  .port-closing-text p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 38px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 18px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-image img {
+    height: 550px;
+    width: auto;
+  }
+
+  /* 01 What I Do */
+  .port-design-item {
+    width: 275px;
+  }
+
+  .port-design img {
+    height: 275px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+  }
+
+  .port-testimonials img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 38px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 18px;
+  }
+
+  .port-intro-image img {
+    height: 425px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 42.5px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper {
+    display: none;
+  }
+
+  .port-education-wrapper-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .port-education-line-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 35px;
+  }
+
+  .port-education h3 {
+    font-size: 16px;
+  }
+
+  .port-education h4 {
+    font-size: 14px;
+  }
+
+  .port-education p {
+    font-size: 13px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 800px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    display: none;
+  }
+
+  .port-testimonials-wrapper-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    padding: 3.5%;
+    margin: 0rem 5% 0rem 5%;
+    background: var(--portbgwhite);
+    -webkit-box-shadow: 0px 5px 50px var(--portboxshadow);
+    box-shadow: 0px 5px 50px var(--portboxshadow);
+    gap: 42.5px;
+  }
+
+  .port-testimonials-line-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 120px;
+  }
+
+  .port-testimonials-wrapper-2 img {
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  .port-testimonials-wrapper-2 img:hover {
+    border-radius: 10px;
+    /* transform: scale(1.05); */
+    -webkit-box-shadow: 0px 5px 50px var(--portboxshadow);
+    box-shadow: 0px 5px 50px var(--portboxshadow);
+  }
+
+  .port-testimonials-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    gap: 16px;
+  }
+
+  /* closing */
+  .port-closing {
+    width: 800px;
+  }
+
+  .port-closing h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 811px) {
+  /* nav bar */
+  .port-nav-list {
+    gap: 17px;
+  }
+
+  /* first sect */
+  .port-intro-text h1 {
+    font-size: 28px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 20px;
+  }
+
+  .port-design img {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  /* nav and shit */
+  .port-nav-list {
+    gap: 20px;
+  }
+
+  .port-nav-list-item {
+    font-size: 15px;
+  }
+
+  .port-nav-list span {
+    font-size: 13px;
+  }
+
+  /* first section */
+  .port-intro-text h1 {
+    font-size: 24px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 12x;
+  }
+
+  .port-intro-image img {
+    height: 375px;
+    width: auto;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 50px;
+  }
+
+  .port-design-wrapper p {
+    font-size: 16px;
+  }
+
+  .port-design-item {
+    width: 200px;
+  }
+
+  .port-design img {
+    height: 200px;
+  }
+
+  /* 02. What I speak */
+  .port-code-language {
+    gap: 30px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 600px;
+  }
+
+  /* 04. What They Think */
+
+  .port-testimonials-wrapper-2 {
+    padding-left: 50px;
+    gap: 30px;
+  }
+
+  .port-testimonials-line-1 {
+    gap: 0px;
+  }
+
+  .port-testimonials-wrapper-2 img {
+    width: 300px;
+    height: auto;
+  }
+
+  /* closing */
+  .port-closing {
+    width: 625px;
+  }
+
+  .port-closing h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  /* global */
+  h2 {
+    font-size: 38px;
+  }
+
+  .port-nav-list {
+    display: none;
+  }
+
+  /* header/nav */
+  .port-nav-wrapper-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+
+  .port-nav-list-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* first section */
+  .port-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .port-intro-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .port-intro-text {
+    width: 90%;
+    /* padding: 0px 10px 5px 10px;
+    border-radius: 5px; */
+  }
+
+  .port-intro-image img {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 44px;
+  }
+
+  .port-intro-text p {
+    font-size: 16px;
+  }
+
+  .port-intro-text-h1 {
+    font-size: 28px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    gap: 23px;
+  }
+
+  .port-design img {
+    height: 175px;
+    width: 175px;
+    margin-bottom: 5px;
+  }
+
+  .port-design p {
+    font-size: 13px;
+  }
+
+  .port-design h3 {
+    font-size: 16px;
+  }
+
+  /* 03. What I Study */
+  .port-education-wrapper-2 {
+    display: none;
+  }
+
+  .port-education-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+  }
+
+  .port-education-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 450px;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    background: var(--portbgwhite);
+    -webkit-box-shadow: 0px 5px 50px var(--portboxshadow);
+    box-shadow: 0px 5px 50px var(--portboxshadow);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    gap: 25px;
+    -webkit-transition: 0.225s ease-in-out;
+    -o-transition: 0.225s ease-in-out;
+    transition: 0.225s ease-in-out;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper-2 {
+    display: none;
+  }
+
+  .port-testimonials-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 42.5px;
+  }
+
+  .port-testimonials img {
+    width: 100px;
+    height: auto;
+  }
+
+  .port-testimonials p {
+    font-size: 16px;
+  }
+
+  .port-testimonials-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+  }
+
+  /* closing text */
+  .port-closing {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .port-closing-text p {
+    font-size: 18px;
+  }
+
+  .port-closing-text {
+    width: 550px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* header/nav */
+  .port-nav-wrapper-2 {
+    gap: 20px;
+  }
+
+  .port-nav-wrapper-2 li {
+    font-size: 14px;
+  }
+
+  .port-nav-wrapper-2 span {
+    font-size: 12px;
+  }
+
+  /* first section */
+  .port-intro-image img {
+    width: 375px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 34px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .port-design-wrapper img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .port-design-wrapper p {
+    font-size: 16px;
+  }
+
+  .port-design-item {
+    width: 400px;
+  }
+
+  /* 02. What I Speak */
+  .port-code {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .port-code-language {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .port-code-language img {
+    width: 200px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 400px;
+  }
+
+  /* closing */
+  .port-closing-text p {
+    font-size: 17px;
+  }
+
+  .port-closing-text {
+    width: 450px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 500px) {
+  /* header/nav */
+  .port-nav-list,
+  .port-nav-list-2 {
+    display: none;
+  }
+
+  /* first section */
+  .port-intro-text {
+    width: 425px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 36px;
+  }
+
+  .port-intro-text span {
+    font-size: 24px;
+  }
+
+  /* 03. What I Study */
+  .port-education-item {
+    width: 400px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .port-testimonials-wrapper {
+    width: 400px;
+  }
+
+  .port-testimonials p {
+    width: 350px;
+  }
+
+  /* closing */
+  .port-closing-text {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  /* nav/header */
+  .port-header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 75px;
+  }
+
+  .port-nav-button {
+    display: none;
+  }
+
+  /* port-wrapper */
+  .port-wrapper {
+    gap: 50px;
+  }
+
+  /* first section */
+  .port-intro-text {
+    width: 300px;
+  }
+
+  .port-intro-text h1 {
+    font-size: 28px;
+  }
+
+  .port-intro-text span {
+    font-size: 14px;
+  }
+
+  .port-intro-text p {
+    font-size: 15px;
+  }
+
+  /* 01. What I Do */
+  .port-design-wrapper img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .port-design-item {
+    width: 325px;
+  }
+
+  /* 02. What I Speak */
+  h2 {
+    font-size: 28px;
+  }
+
+  .port-code-language img {
+    width: 175px;
+  }
+
+  /* footer */
+  .port-footer {
+    height: 75px;
+  }
+
+  /* 03. What I Study */
+
+  .port-education-wrapper {
+    gap: 45px;
+  }
+
+  .port-education-item {
+    width: 300px;
+  }
+
+  /* divider */
+  .port-divider {
+    width: 275px;
+  }
+
+  /* 04. What they Think */
+  .port-testimonials-wrapper {
+    width: 325px;
+  }
+
+  .port-testimonials p {
+    width: 300px;
+  }
+
+  /* closing */
+  .port-closing-text {
+    width: 300px;
+  }
+
+  /* footer */
+  .port-footer-logo {
+    display: none;
+  }
+
+  .port-footer-button {
+    display: flex;
+  }
+
+  .port-footer-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: var(--portred);
+    text-align: center;
+    -webkit-transition: 0.15s ease-in-out;
+    -o-transition: 0.15s ease-in-out;
+    transition: 0.15s ease-in-out;
+  }
+
+  .port-footer-contact:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-filter: contrast(50%);
+    filter: contrast(50%);
+    /* box-shadow: 0px 0px 5px var(--portgrey); */
+  }
+
+  .port-footer-contact p {
+    font-family: "Sora", sans-serif;
+    color: var(--portwhite);
+  }
+}
+
+/* disable hover colour effects on portrait for touch screen devices */
+@media screen and (orientation: portrait) {
+  * img {
+    -webkit-filter: grayscale(0%) !important;
+    filter: grayscale(0%) !important;
+  }
+}

@@ -1,0 +1,21 @@
+/* dark mode switch */
+.dark-mode {
+  --portblack: #ffffff;
+  --portdarkred: #a90015ff;
+  --portred: #c30011ff;
+  --portgrey: #c5c5c5;
+  --portwhite: #f2f5faff;
+  --portbgwhite: #121212;
+  --portboxshadow: #0c0c0c;
+}
+
+.port-mode-switch img {
+  height: 25px;
+}
+
+.dark-mode-button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
