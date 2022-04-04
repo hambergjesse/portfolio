@@ -11,6 +11,13 @@
 
 .port-mode-switch img {
   height: 25px;
+  transition: 0.2s ease-in-out;
+}
+
+.port-mode-switch img:hover {
+  filter: invert(94%) sepia(8%) saturate(0%) hue-rotate(174deg) brightness(87%)
+    contrast(83%);
+  transform: scale(1.05);
 }
 
 .dark-mode-button {
