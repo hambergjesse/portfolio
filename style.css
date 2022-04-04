@@ -329,6 +329,7 @@ p {
   /* no stretch image fill */
   -o-object-fit: cover;
   object-fit: cover;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
@@ -336,6 +337,7 @@ p {
   -webkit-transform: scale(1.005);
   -ms-transform: scale(1.005);
   transform: scale(1.005);
+  -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 
@@ -652,6 +654,7 @@ p {
 
 .port-closing cite {
   font-family: "Lato", sans-serif;
+  -webkit-text-decoration: italic;
   text-decoration: italic;
   font-size: 18px;
   color: var(--portgrey);
@@ -749,6 +752,8 @@ p {
 }
 
 .port-footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 3rem;
 }
