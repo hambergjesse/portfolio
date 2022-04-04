@@ -1,3 +1,4 @@
+//reset page to top
 $(document).ready(function () {
   $("html, body").scrollTop(0);
 
@@ -8,6 +9,7 @@ $(document).ready(function () {
   });
 });
 
+//run page loader
 $(window).on("load", function () {
   $(".loader-wrapper").delay(750).fadeOut("slow");
 });
