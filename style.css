@@ -505,6 +505,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
   background: var(--portbgwhite);
   -webkit-box-shadow: 0px 5px 50px var(--portboxshadow);
   box-shadow: 0px 5px 50px var(--portboxshadow);
